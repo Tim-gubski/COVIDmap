@@ -39,8 +39,8 @@ circle{
 }
 
 #header{
-    background-image: url("https://news.mit.edu/sites/default/files/download/201810/MIT-Computer-Announce-01-PRESS.jpg") ;
-    background-size: contain;
+    background-image: url("https://s3.amazonaws.com/fathom_media/photos/Wonders-Landscapes-Main.jpg.1200x800_q85_crop.jpg") ;
+    background-size:cover;
     position:absolute;
     top: 0;
     left: 0;
