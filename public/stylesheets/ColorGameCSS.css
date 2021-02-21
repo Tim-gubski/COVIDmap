@@ -24,7 +24,7 @@ path:hover, circle:hover {
 }
 
 path, circle{
-    fill:#a6cea3;
+    fill:#7dce77;
     transition:0.3s;
     stroke-width: 0px;
 }
@@ -53,7 +53,7 @@ circle{
 #title{
     padding: 20px;
     color: rgba(48, 41, 41, 0.842);
-    background-color: #c7c7c475;
+    background-color: #00000018;
 }
 
 
@@ -67,18 +67,22 @@ circle{
     position: relative;
     left: -50%;
     top: -40vh;
-    background: rgba(238, 219, 255, 0.9);
+    background: rgba(229, 233, 255, 0.85);
     width: 600px;
     height: 80vh;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+    font-size: 1.3em;
     display: none;
 }
 
+p{
+    padding-top: 20px;
+}
 
 body{
-    background: linear-gradient(-45deg, rgb(198,232,243), rgb(198, 243, 230), rgb(177, 238, 208), rgb(130, 188, 243));
+    background: linear-gradient(-45deg, rgb(179, 236, 255),rgb(196, 241, 255), rgb(180, 210, 255), rgb(225, 193, 255));
 	background-size: 400% 400%;
 	animation: gradient 20s ease infinite;
 }
