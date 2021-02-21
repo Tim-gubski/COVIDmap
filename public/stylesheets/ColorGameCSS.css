@@ -11,7 +11,7 @@ body{
     height: 100%;
 }
 path:hover, circle:hover {
-    fill: #73bb6c !important;
+    fill: #6ece65 !important;
     cursor: pointer;
     transition:0.3s
 }
@@ -24,13 +24,12 @@ path:hover, circle:hover {
 }
 
 path, circle{
-    fill:#7dce77;
+    fill:#76b969;
     transition:0.3s;
     stroke-width: 0px;
 }
 
 circle{
-
     stroke-width: 1px;
     stroke: #c6e8f3;
 } 
@@ -39,8 +38,8 @@ circle{
 }
 
 #header{
-    background-image: url("https://s3.amazonaws.com/fathom_media/photos/Wonders-Landscapes-Main.jpg.1200x800_q85_crop.jpg") ;
-    background-size:cover;
+    /* background-image: url("https://s3.amazonaws.com/fathom_media/photos/Wonders-Landscapes-Main.jpg.1200x800_q85_crop.jpg") ; */
+    /* background-size:cover; */
     position:absolute;
     top: 0;
     left: 0;
@@ -51,9 +50,14 @@ circle{
 }
 
 #title{
-    padding: 20px;
+    padding-top: 60px;
     color: rgba(48, 41, 41, 0.842);
-    background-color: #00000018;
+    /* background-color: #00000018; */
+    font-weight: bold;
+}
+
+h4{
+    color: rgba(94, 85, 85, 0.842);
 }
 
 
@@ -73,8 +77,13 @@ circle{
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+    color: rgba(14, 14, 14, 0.9);
     font-size: 1.3em;
     display: none;
+}
+
+#overlay h1{
+    font-weight: bold;
 }
 
 p{
@@ -82,9 +91,11 @@ p{
 }
 
 body{
-    background: linear-gradient(-45deg, rgb(179, 236, 255),rgb(196, 241, 255), rgb(180, 210, 255), rgb(225, 193, 255));
-	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
+    background-image: url("https://s3.amazonaws.com/fathom_media/photos/Wonders-Landscapes-Main.jpg.1200x800_q85_crop.jpg") ;
+    background-size: cover;
+    /* background: linear-gradient(-45deg, rgba(191, 236, 252,0.8),rgba(196, 241, 255,0.8), rgba(191, 217, 255,0.8), rgba(216, 255, 250,0.8));
+	background-size: 400% 400%; */
+    animation: fadeIn 2s,gradient 60s ease infinite;
 }
 
 
@@ -126,4 +137,9 @@ body{
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
