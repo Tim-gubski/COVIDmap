@@ -3,27 +3,12 @@
 <head>
     <title>Color Game</title>
     <link rel="stylesheet" href="/stylesheets/ColorGameCSS.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 </head>
 <body>
-    <h1>The Great 
-        <br>
-            <span id="colorDisplay">RGB</span> 
-        <br>
-        Guessing Game</h1>
-    <div id="stripe">
-        <button id="reset">New Colors</button>
-        <span id="message"></span>
-        <button id="easyBtn">Easy</button>
-        <button id="hardBtn" class="selected">Hard</button>
-    </div>
-    <div id="container"> 
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-    </div>
+    
+    <%- include('map.ejs') %>
+
     <script src="/ColorGameJS.js"></script>
 </body>
 </html>
