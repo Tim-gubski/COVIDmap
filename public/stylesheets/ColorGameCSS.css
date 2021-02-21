@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 #us-map{
     /* display: block; */
     /* position: absolute; */
@@ -7,20 +11,20 @@
     height: 100%;
 }
 path:hover, circle:hover {
-    fill: #f74b4b !important;
+    fill: #73bb6c !important;
     cursor: pointer;
     transition:0.3s
 }
 #path67 {
     fill: none !important;
-    stroke: #A9A9A9 !important;
+    stroke: #95ee8f !important;
     cursor: default;
 }
 
 path, circle{
-    fill:#cecdcd;
+    fill:#a6cea3;
     transition:0.3s;
-    stroke-width: 0.2px;
+    stroke-width: 0px;
     stroke: #000000 !important;
 }
 
@@ -29,5 +33,14 @@ path, circle{
 }
 
 body{
-    background-color: rgb(78, 117, 105);
+    background-color: #c6e8f3;
+}
+
+nav{
+    background-color: #e9e9e8;
+}
+
+#mapContainer{
+    margin: auto;
+    width: 60vw;
 }
