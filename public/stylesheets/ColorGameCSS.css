@@ -50,6 +50,12 @@ circle{
     padding-top: 40vh;
 }
 
+#title{
+    padding: 20px;
+    color: rgba(48, 41, 41, 0.842);
+    background-color: #c7c7c475;
+}
+
 
 #overlayContainer{
     position: absolute;
@@ -77,13 +83,10 @@ body{
 	animation: gradient 20s ease infinite;
 }
 
-nav{
-    background-color: #c7c7c4;
-}
 
 #mapContainer{
-    margin: auto;
-    width: 80vw;
+    margin: 60px auto;
+    height: 100vh;
 }
 
 #info-box {
