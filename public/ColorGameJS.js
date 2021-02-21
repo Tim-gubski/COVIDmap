@@ -1,6 +1,6 @@
 
 
-$("#header").delay(500).fadeOut("slow")
+$("#header").delay(300).fadeOut(2000)
 
 $(window).click(function() {
     $("#overlay").fadeOut()
