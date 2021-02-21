@@ -17,17 +17,24 @@ path:hover, circle:hover {
 }
 #path67 {
     fill: none !important;
-    stroke: #95ee8f !important;
+    stroke: #7eb679 !important;
+    stroke-width: 2px;
     cursor: default;
+    
 }
 
 path, circle{
     fill:#a6cea3;
     transition:0.3s;
     stroke-width: 0px;
-    stroke: #000000 !important;
+ 
 }
 
+circle{
+
+    stroke-width: 1px;
+    stroke: #c6e8f3;
+}
 .container{
     margin:0 auto;
 }
@@ -54,7 +61,7 @@ path, circle{
     position: relative;
     left: -50%;
     top: -40vh;
-    background: rgba(255, 222, 222, 0.9);
+    background: rgba(238, 219, 255, 0.9);
     width: 600px;
     height: 80vh;
     border-radius: 20px;
@@ -76,5 +83,5 @@ nav{
 
 #mapContainer{
     margin: auto;
-    width: 70vw;
+    width: 65vw;
 }
