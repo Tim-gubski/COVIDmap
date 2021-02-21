@@ -4,6 +4,7 @@
     <title>Color Game</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="/stylesheets/ColorGameCSS.css">
 
 </head>
@@ -45,7 +46,7 @@
         <h1>MAP</h1>
     </div> -->
 
-
+    <div id="info-box"></div>
 
     <div class="container" id="mapContainer">
     <%- include('map.ejs') %>
@@ -53,6 +54,7 @@
 
     <div id="overlayContainer">
         <div class="text-center" id="overlay">
+            <i class="fas fa-times" id="exit"></i>
             <h1>State</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta ipsam commodi magnam consectetur adipisci voluptate cupiditate. Cum facilis, hic maiores, vero error nulla id cupiditate sed provident repellendus nihil harum.</p>
         </div>

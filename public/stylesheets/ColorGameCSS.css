@@ -84,6 +84,27 @@ nav{
     width: 65vw;
 }
 
+#info-box {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #ffffff4b;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: arial;
+}
+
+#exit{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+}
+#exit:hover{
+    cursor: pointer;
+}
 
 @keyframes gradient {
 	0% {
