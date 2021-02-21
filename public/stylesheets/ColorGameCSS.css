@@ -1,17 +1,15 @@
 #us-map{
-    display: block;
-    position: absolute;
+    /* display: block; */
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 path:hover, circle:hover {
-    stroke: #002868 !important;
-    stroke-width:2px;
-    stroke-linejoin: round;
-    fill: #002868 !important;
+    fill: #f74b4b !important;
     cursor: pointer;
+    transition:0.3s
 }
 #path67 {
     fill: none !important;
@@ -20,5 +18,16 @@ path:hover, circle:hover {
 }
 
 path, circle{
-    fill:#A9A9A9;
+    fill:#cecdcd;
+    transition:0.3s;
+    stroke-width: 0.2px;
+    stroke: #000000 !important;
+}
+
+.container{
+    margin:0 auto;
+}
+
+body{
+    background-color: rgb(78, 117, 105);
 }
