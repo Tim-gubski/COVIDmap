@@ -39,7 +39,8 @@ circle{
 }
 
 #header{
-    background-color: rgba(255, 255, 255, 0.616);
+    background-image: url("https://news.mit.edu/sites/default/files/download/201810/MIT-Computer-Announce-01-PRESS.jpg") ;
+    background-size: contain;
     position:absolute;
     top: 0;
     left: 0;

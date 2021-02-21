@@ -46,7 +46,7 @@ states = {
     },
     "ID":{
         "name":"Idaho",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "text":"Business and governmental agencies may continue operations at physical locations in the state of Idaho. All individuals, businesses, and governmental agencies should adhere to the physical distancing and sanitation requirements described in section 3. Gatherings, both public and private, should adhere to the requirements identified in section 1. Patrons of bars, nightclubs, and restaurants should remain seated. Face coverings are strongly recommended. Face coverings are required at long-term care facilities. https://rebound.idaho.gov/stage-3-stay-healthy-guidelines/"
     },
     "IL":{
         "name":"Illinois",
@@ -82,7 +82,7 @@ states = {
     },
     "MA":{
         "name":"Massachusetts",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "text":"All residents are required to wear face masks or cloth face coverings in all public places, whether indoors or outdoors, even where they are able to maintain 6 feet of distance from others. There are gathering limits of 10 people indoors; 25 people outdoors. Parents should limit play dates for children. All residents are advised to wash their hands frequently for at least 20 seconds with soapy water. All residents are advised to be vigilant, monitor for symptoms and stay home if you feel sick. Use remote modes of communication like phone or video chat instead of visiting friends or family who are high risk for COVID-19."
     },
     "MI":{
         "name":"Michigan",
@@ -170,7 +170,8 @@ states = {
     },
     "TX":{
         "name":"Texas",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "text":"All individuals over the age of 10 must wear a face covering (over the nose and mouth) wherever it is not feasible to maintain six feet of social distancing from another individual not in the same household or, for those engaging in physical activities outdoors, wherever the individual is not able to maintain a safe physical distance from others not in the same household. Individuals may not be in a group larger than 10 individuals (including those within the individual’s household). Within these groups, individuals should, to the extent possible, minimize in-person contact with others not in the individual’s household. Minimizing in-person contact includes maintaining 6 feet of separation from individuals. When maintaining 6 feet of separation is not feasible, other methods should be utilized to slow the spread of COVID-19, such as washing or sanitizing hands frequently, and avoiding sharing utensils or other common objects. Tables at restaurants and bars should not exceed 10 individuals https://www.dshs.state.tx.us/ga3031/ "
+        
     },
     "UT":{
         "name":"Utah",
