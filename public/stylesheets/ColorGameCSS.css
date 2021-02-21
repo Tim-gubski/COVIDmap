@@ -59,12 +59,15 @@ path, circle{
     height: 80vh;
     border-radius: 20px;
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    color: rgb(105, 105, 105);
     display: none;
 }
 
 
 body{
-    background-color: #c6e8f3;
+    background: rgb(198,232,243);
+    background: linear-gradient(90deg, rgba(198,232,243,1) 0%, rgba(243,255,226,1) 43%, rgba(243,255,226,1) 57%, rgba(198,232,243,1) 100%);
 }
 
 nav{
@@ -73,5 +76,5 @@ nav{
 
 #mapContainer{
     margin: auto;
-    width: 60vw;
+    width: 70vw;
 }
