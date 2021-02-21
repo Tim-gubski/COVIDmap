@@ -82,7 +82,7 @@ states = {
     },
     "MA":{
         "name":"Massachusetts",
-        "text":"All residents are required to wear face masks or cloth face coverings in all public places, whether indoors or outdoors, even where they are able to maintain 6 feet of distance from others. There are gathering limits of 10 people indoors; 25 people outdoors. Parents should limit play dates for children. All residents are advised to wash their hands frequently for at least 20 seconds with soapy water. All residents are advised to be vigilant, monitor for symptoms and stay home if you feel sick. Use remote modes of communication like phone or video chat instead of visiting friends or family who are high risk for COVID-19."
+        "text":"All residents are required to wear face masks or cloth face coverings in all public places, whether indoors or outdoors, even where they are able to maintain 6 feet of distance from others. There are gathering limits of 10 people indoors; 25 people outdoors. Parents should limit play dates for children. All residents are advised to wash their hands frequently for at least 20 seconds with soapy water. All residents are advised to be vigilant, monitor for symptoms and stay home if you feel sick. Use remote modes of communication like phone or video chat instead of visiting friends or family who are high risk for COVID-19. https://www.mass.gov/info-details/covid-19-updates-and-information#regulations-&-guidance-"
     },
     "MI":{
         "name":"Michigan",
