@@ -33,7 +33,7 @@ circle{
 
     stroke-width: 1px;
     stroke: #c6e8f3;
-}
+} 
 .container{
     margin:0 auto;
 }
@@ -56,7 +56,7 @@ circle{
     top: 50%;
 }
 
-#overlay{
+#overlay{   
     position: relative;
     left: -50%;
     top: -40vh;
@@ -65,8 +65,6 @@ circle{
     height: 80vh;
     border-radius: 20px;
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
-    padding: 10px;
-    color: rgb(105, 105, 105);
     display: none;
 }
 
@@ -78,7 +76,7 @@ body{
 }
 
 nav{
-    background-color: #e9e9e8;
+    background-color: #c7c7c4;
 }
 
 #mapContainer{
